@@ -1,0 +1,76 @@
+{
+    "pizzerias": [
+      {
+        "name": "Pizzeria Totò e Peppino",
+        "rating": 9.2,
+        "mustTry": "Donna Sofi'",
+        "city": "Cologne",
+        "nation": "Germany",
+        "locationUrl": "https://g.page/totoepeppino?share",
+        "websiteUrl": "https://pizzeria-toto-e-peppino.business.site/#menu",
+        "coords": [50.94981828169062, 6.953491115339516]
+      },
+      {
+        "name": "Bianco’s",
+        "rating": 8.5,
+        "mustTry": "La Margherita",
+        "city": "San Julian",
+        "nation": "Malta",
+        "locationUrl": "https://goo.gl/maps/2dxtaVoco52N9F3w7",
+        "websiteUrl": "https://www.biancos.info/",
+        "coords": [35.9256352802015, 14.49026008600578]
+      },
+      {
+        "name": "Meno Male Mariatorget",
+        "rating": 8.3,
+        "mustTry": "Margherita",
+        "city": "Stockholm",
+        "nation": "Sweden",
+        "locationUrl": "https://goo.gl/maps/cwCiaD7iaZp7Vbom9",
+        "websiteUrl": "http://www.menomale.se/",
+        "coords": [59.31811905353634, 18.06028087831309]
+
+      },
+      {
+        "name": "Ciro",
+        "rating": 9.0,
+        "mustTry": "Quattro Formaggi",
+        "city": "Jönköping",
+        "nation": "Sweden",
+        "locationUrl": "https://goo.gl/maps/iDicVeHrzT3Gub1t6",
+        "websiteUrl": "https://pizzadiciro.se/har-finns-vi",
+        "coords": [57.77167994759845, 14.158549590035443]
+      },
+      {
+        "name": "Vera Napoli Pizzeria",
+        "rating": 9.5,
+        "mustTry": "Don Carmelo",
+        "city": "Katowice",
+        "nation": "Poland",
+        "locationUrl": "https://goo.gl/maps/NnYXYW2CvRWkEhZZ8",
+        "websiteUrl": "https://www.facebook.com/napolikatowice/",
+        "coords": [50.25852107763218, 19.026960201671844]
+      },
+      {
+        "name": "Pizzeria Luca",
+        "rating": 8.5,
+        "mustTry": "Capricciosa",
+        "city": "Copenhagen",
+        "nation": "Denmark",
+        "locationUrl": "https://g.page/PizzeriaLuca?share",
+        "websiteUrl": "https://iloveluca.dk/",
+        "coords" : [55.67820466533089, 12.578539092423172]
+      },
+      {
+        "name": "L'Antica Pizzeria Da Michele - بيتزاريا دي ميكيليه",
+        "rating": 9.3,
+        "mustTry": "Tartufo Pizza",
+        "city": "Riyadh",
+        "nation": "Saudi Arabia",
+        "locationUrl": "https://goo.gl/maps/YNZnFUTctfzXvzHz7",
+        "websiteUrl": "https://www.instagram.com/damichele_sa/?utm_medium=copy_link",
+        "coords" : [24.740269482471785, 46.62889303908769]
+      }
+    ]
+  }
+  
