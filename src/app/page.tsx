@@ -34,7 +34,7 @@ function Home() {
 
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-pizzaYellow">
+    <main className="flex min-h-screen flex-col items-center justify-between p-12 bg-pizzaYellow">
       <Image
         src={logoSvg}
         width={500}
@@ -42,16 +42,16 @@ function Home() {
         alt="Esport Pizza Logo"
       />
       <Stack gap={4} align='center'>
-      <Text c={"white"} size='xl' fw={"bold"}>There currently are {data.pizzerias.length} approved pizzerias on this planet.</Text>
+      <Text ta="center" c={"white"} size='sm' fw={"bold"}>There currently are {data.pizzerias.length} approved pizzerias on this website.</Text>
       {nearbyPizzeria && 
         <Stack align='center'>
-          <Text c={"white"} size='xl' fw={"bold"}>You seem to be close to {nearbyPizzeria.pizzeria.name}! </Text>
+          <Text c={"white"} size='lg' fw={"bold"}>You seem to be close to {nearbyPizzeria.pizzeria.name}! </Text>
           <PizzeriaItem key={"Close"} pizzeria={nearbyPizzeria.pizzeria} isNearby distanceMt={nearbyPizzeriaDistanceMt}/>
           <Divider my="md" />
         </Stack>
       
       }
-      <Text c={"white"} size='50px' fw={"bold"} mb={30}>All Pizzerias</Text>
+      <Text c={"white"} size='32px' fw={"bold"} mb={30}>All Pizzerias</Text>
 
       {data.pizzerias.map((pizzeria, index) => (
         <PizzeriaItem key={index} pizzeria={pizzeria}/>
