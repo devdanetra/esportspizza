@@ -24,7 +24,7 @@ export const PizzeriaItem = function (props: PizzeriaItemProps) {
             <Group justify="space-between">
                 <Group>
                 <Text size="24px" ff={"text"} c={props.isNearby ? "red" : "white"} fw={props.isNearby ? "bold" : 200}>{data.name}</Text>
-                {props.isNearby && <Text size="12px" ff={"text"} c={"white"} fw={props.isNearby ? "bold" : 200}>Only {Math.round(props.distanceMt)} meters away from you!</Text>}
+                {props.isNearby && <Text size="12px" ff={"text"} c={"white"} fw={props.isNearby ? "bold" : 200}>Only {Math.round(props.distanceMt!)} meters away from you!</Text>}
                 </Group>
                 <Stack align="center">
                     <Rating value={data.rating / 2} fractions={2} readOnly />
